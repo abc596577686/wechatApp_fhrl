@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/start/start",
+    "pages/audioindex/index",
     "pages/index/index",
     "pages/goods-details/index",
     "pages/shop-cart/index",
@@ -28,22 +29,24 @@
     "borderStyle": "white",
     "backgroundColor": "#fff",
     "box-shadow":"0 0 6px 0",
-    "list": [{
-     "pagePath": "pages/index/index",
+    "list": [
+    {
+     "pagePath": "pages/audioindex/index",
       "iconPath": "images/nav/home-off.png",
       "selectedIconPath": "images/nav/home-on.png",
-      "text": "首页"
-    }, {
-      "pagePath": "pages/shop-cart/index",
+      "text": "出勤记录"
+    }, 
+    {
+      "pagePath": "pages/audioindex/index",
       "iconPath": "images/nav/cart-off.png",
       "selectedIconPath": "images/nav/cart-on.png",
-      "text": "购物车"
-    },
+      "text": "活动请假"
+    }, 
     {
-      "pagePath": "pages/my/index",
+      "pagePath": "pages/audioindex/index",
       "iconPath": "images/nav/my-off.png",
       "selectedIconPath": "images/nav/my-on.png",
-      "text": "我的"
+      "text": "每周抽奖"
     }]
   }
 }

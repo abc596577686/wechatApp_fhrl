@@ -14,9 +14,9 @@
       </view>
       <view class="bd">
          <!-- <image class="smalltitle" src="/images/more/confirm-word1.png"></image> -->
-        <!-- <view class="confirm-btn" bindtap='goToIndex'> -->
-          <view class="confirm-btn">
-          <text >风荷日历</text>
+        <view class="confirm-btn" bindtap='goToIndex'>
+          <!-- <view class="confirm-btn"> -->
+          <text >十里桃花出勤记录器</text>
         </view>
         <!-- <text class="copyright">@qindiandadudu 贡献本页代码</text> -->
       </view>

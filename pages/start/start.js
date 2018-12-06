@@ -9,14 +9,14 @@ Page({
   },
   goToIndex:function(){
     wx.switchTab({
-      url: '/pages/index/index',
+      url:'/pages/audioindex/index'
     });
   },
   onLoad:function(){
     var that = this
-    wx.setNavigationBarTitle({
-      title: wx.getStorageSync('mallName')
-    })
+    // wx.setNavigationBarTitle({
+    //   title: wx.getStorageSync('mallName')
+    // })
     app.getUserInfo(function(userInfo){
       that.setData({
         userInfo: userInfo
